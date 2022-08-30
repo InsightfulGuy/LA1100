@@ -1,9 +1,7 @@
 # LA1100
 # Projekt-Dokumentation
 
-☝️ Alle Text-Stellen, welche mit einem ✍️ beginnen, können Sie löschen, sobald Sie die entsprechende Stellen ausgefüllt haben.
 
-✍️ Ihr Gruppenname und Ihre Nachnamen
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
@@ -21,22 +19,24 @@ Mein Projekt ist ein Number Generator, bei dem der Nutzer eine Zahl zwischen 1 u
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    | muss            |  Funktion    |  Das Programm muss eine Zahl zwischen 1 und 100 generieren.|
-| 2    | muss            |  Funktion    |  Das Programm muss dem User eine Möglichkeit geben eine Nummer einzugeben|
-| 3    | muss            |  Funktion    |  Der User möchte vom Programm wissen ob die Zahl zu hoch oder zu tief war.|
-| 4    | kann            |  Qualität    |  Der User will vielleicht ein schönes Design des Programms sehen, anstatt die normale Ansicht|
-
+| 1    | muss            |  Funktion    |  Als der Nutzer, will ich eine Zahl zwischen 1 und 100 eingeben können.|
+| 2    | muss            |  Funktion    |  Als der Nutzer, will ich vom Programm wissen ob ich die Zahl erraten habe.|
+| 3    | muss            |  Funktion    |  Als der Nutzer, möchte vom Programm wissen ob die Zahl zu hoch oder zu tief war.|
+| 4    | kann            |  Qualität    |  Als der Nutzer, möchte ich die richtige/falsche Zahl in einer anderen Farbe sehen.|
+| 5    | muss            |  Funktion    |  Als der Nutzer, will ich einen weiteren Versuch bekommen, falls die Zahl falsch ist.|
+| 6    | muss            |  Funktion    |  Als der Nutzer, muss das Programm mir die Möglichkeit geben, das Spiel zu neustarten.|
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-|  1   | Das Programm wird gestartet, aber gibt keine Rückmeldung|"Eine Eingabe"|Das Programm sollte den Random Number Generator anzeigen|
-|  2   | Das Programm wird gestartet, zeigt den Number Generator an, aber gibt dem User nicht die Möglichkeit eine Nummer einzugeben| "Eingabe einer Zahl, aber funktioniert nicht"|Eine Eingabe einer Nummer in den Generator|
-|  3   | Das Programm ist gestartet, zeigt den Number Generator an und lässt einem eine Nummer einzugeben, aber gibt nicht eine Anzeige ob die random Number höher oder tiefer ist| Eingabe einer Nummer um die random Nummer herauszufinden| Das Programm sagt einem ob die Nummer zu tief oder zu hoch ist|
-|  4   | Das Programm wird getartet, aber das Design des Programms ist verbuggt| Das Programm starten | Das Design ist so aufgebaut wie es wäre beim Starten| 
+|  1.1 |Ich probiere eine Nummer in den Generator einzugeben, aber sie erscheint nicht|"bestimmte Nummer"|Die Nummer sollte eingegeben sein|
+|  2.1 |Random Nummer ist generiert, Zahl wurde eingegeben, gibt aber keine Antwort|"bestimmte Nummer des Nutzers"|Text der sagt ob ich die Nummer erraten habe.|
+|  3.1 |Random Nummer ist generiert, Zahl wurde eingegeben, aber gibt keine Antwort|"bestimmte Zahl die der Nutzer eingegeben hat"|Das Programm sollte eine Antwort geben, ob die Zahl zu gross, oder zu klein ist|
+|  4.4 |Die Antwort wurde ausgegeben, ob sie richtig/falsch ist, Resultatsnummer erscheint|"bestimmte Nummer" |Nummer soll in einer anderen Farbe angezeigt werden, ob sie falsch/richtig ist.|
+|  5.4 |Die Antwort wurde ausgegeben, die Nummer ist richtig, aber man kann nichts machen|"Neustart?"|Text sollte in einer bestimmten Farbe angezeigt werden.| 
+|  6.1 |Die random Nummer wurde erraten, der Text und das Resultat werden angezeigt.|"Neustart"|Es soll eine Möglichkeit geben, das Spiel zu neustarten.
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
 ### 1.4 Diagramme
 
@@ -47,8 +47,13 @@ Mein Projekt ist ein Number Generator, bei dem der Nutzer eine Zahl zwischen 1 u
 
 | AP-№ |    Frist  | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----------| --------- | ------------ | ------------- |
-| 1.A  | 30.08.2022| Evans Tristan| Code des Number generator fertig programmieren| 4 Stunden |
-| 1.B  | 30.08 2022| Evans Tristan| Design des Number         |               |
+| 1.A  |30.08.2022 |Tristan Evans| Das Programm kann eine zufällige Zahl generieren zwischen 1 und 100.| 40' | 
+| 2.A  |06.09.2022 |Tristan Evans| Das Programm macht eine Ausgabe ob die Zahl richtig oder falsch ist.| 30' |
+| 2.A  |06.09.2022 |Tristan Evans| Das Programm soll wenn eine Zahl falsch von dem Nutzer geschätzt wird, wird dem Nutzer ein weiterer Versuch geben.| 50' |
+| 3.A  |06.09.2022 |Tristan Evans| Der Nutzer kann einen Zahlenbereich selber auswählen| 50' |
+| 4.A  |06.09.2022 |Tristan Evans| Das Programm soll eine Rückmeldung geben, ob die Zahl die von dem Nutzer eingegeben wird zu hoch oder zu tief ist.|45'|
+| 5.A  |06.09.2022 |Tristan Evans| Das Programm soll eine Fehlermeldung Ausgeben, in der steht, dass man keine Buchstaben eingeben soll.|55'|
+| 6.A  |06.09.2022 |Tristan Evans| Das Programm fragt den Nutzer nach beenden der Runde, ob dieser noch eine Runde spielen möchte.|45'|
 
 Total: 
 
