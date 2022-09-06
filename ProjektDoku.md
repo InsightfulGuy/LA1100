@@ -5,9 +5,10 @@
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-| 23.8.2022 | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+| 23.8.2022 | 0.0.1   |
+| 30.08.2022| 0.1.0   | Mit meiner restlichen Zeit, habe ich dem Programm die Möglichkeit gegeben eine zufällige Zahl zu generieren.|
+| 06.09.2022| 1.0.0   | Der Generator ist fertig und er hat alle meine Funktionen erfüllt.|
+                                                             
 
 ## 1 Informieren
 
@@ -48,12 +49,11 @@ Mein Projekt ist ein Number Generator, bei dem der Nutzer eine Zahl zwischen 1 u
 | AP-№ |    Frist  | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----------| --------- | ------------ | ------------- |
 | 1.A  |30.08.2022 |Tristan Evans| Das Programm kann eine zufällige Zahl generieren zwischen 1 und 100.| 40' | 
-| 2.A  |06.09.2022 |Tristan Evans| Das Programm macht eine Ausgabe ob die Zahl richtig oder falsch ist.| 30' |
+| 2.A  |06.09.2022 |Tristan Evans| Das Programm macht eine Ausgabe ob die Zahl richtig oder falsch ist.| 40' |
 | 2.A  |06.09.2022 |Tristan Evans| Das Programm soll wenn eine Zahl falsch von dem Nutzer geschätzt wird, wird dem Nutzer ein weiterer Versuch geben.| 50' |
-| 3.A  |06.09.2022 |Tristan Evans| Der Nutzer kann einen Zahlenbereich selber auswählen| 50' |
-| 4.A  |06.09.2022 |Tristan Evans| Das Programm soll eine Rückmeldung geben, ob die Zahl die von dem Nutzer eingegeben wird zu hoch oder zu tief ist.|45'|
-| 5.A  |06.09.2022 |Tristan Evans| Das Programm soll eine Fehlermeldung Ausgeben, in der steht, dass man keine Buchstaben eingeben soll.|55'|
-| 6.A  |06.09.2022 |Tristan Evans| Das Programm fragt den Nutzer nach beenden der Runde, ob dieser noch eine Runde spielen möchte.|45'|
+| 3.A  |06.09.2022 |Tristan Evans| Das Programm soll eine Rückmeldung geben, ob die Zahl die von dem Nutzer eingegeben wird zu hoch oder zu tief ist.|45'|
+| 4.A  |06.09.2022 |Tristan Evans| Das Programm soll eine Fehlermeldung Ausgeben, in der steht, dass man keine Buchstaben eingeben soll.|55'|
+| 5.A  |06.09.2022 |Tristan Evans| Das Programm fragt den Nutzer nach beenden der Runde, ob dieser noch eine Runde spielen möchte.|45'|
 
 Total: 
 
@@ -63,14 +63,19 @@ Total:
 
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Ich werde ein Programm schreiben, in dem man, sobald das Programm gestartet wurde, man eine Nummer in einen Zahlenbereich eingeben kann. Danach generiert das Programm in diesem Zahlenbereich eine zufällige Zahl und der Spieler muss dann eine Zahl, in dem Zahlenbereich schätzen, bis er die richtige Zahl findet, die die der zufälligen Zahl übereinstimmt.Jedes mal, wenn der Spieler die falsche Zahl schätzt gibt das Programm eine Rückmeldung, in der steht, ob die geschätzte Zahl höher oder tiefer als die generierte Zahl. Jedes mal wenn das passiert gibt es dem Spieler einen neuen Versuch. Sobald der Spieler die generierte Zahl herausfindet, fragt das Programm, ob der Spieler noch eine Runde spielen möchte. Als ein kann wegen der Farbe des Textes, habe ich mich entschieden die Antworten farbig zu machen.
 
 ## 4 Realisieren
 
-| AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
-| ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
+| AP-№ | Datum     | Zuständig    | geplante Zeit | tatsächliche Zeit |
+| ---- | ----------| ------------ | ------------- | ----------------- |
+| 1.A  | 30.08.2022| Tristan Evans|  40'          |  15'              |
+| 2.A  | 06.09.2022| Tristan Evans|  30'          |  20'              |
+| 2.A  | 06.09.2022| Tristan Evans|  50           |  25'              |
+| 3.A  | 06.09.2022| Tristan Evans|  45'          |  20'              |
+| 4.A  | 06.09.2022| Tristan Evans|  55'          |  25'              |
+| 5.A  | 06.09.2022| Tristan Evans|  45'          |  15'              |
+
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
