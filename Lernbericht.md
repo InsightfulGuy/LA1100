@@ -11,9 +11,6 @@ Ich habe gelernt, wie man eine try und catch Funktion in ein Programm implementi
 
 ## Beschreibung
 
-✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
-Ich habe gelernt dass die try and catch Funktion das Programm bei einem Fehler rettet
-
 Die try und catch Blöcke werden um den Code herum platziert und das würde dann eine «Ausnahme» auslösen.
 Wenn dies ausgelöst wird, überprüfen die try und catch Blöcke das Programm, sodass es keine Fehler gibt im Code, 
 oder ob es dann abstürzen würde. Falls es ein Problem geben würde, «fangen» (catch) die try und catch Blöcke das Programm 
