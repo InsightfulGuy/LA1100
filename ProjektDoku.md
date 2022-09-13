@@ -5,9 +5,10 @@
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-| 23.8.2022 | 0.0.1   |
+| 23.8.2022 | 0.0.1   | Ich habe mit den Github Auftrag angefangen.|
 | 30.08.2022| 0.1.0   | Mit meiner restlichen Zeit, habe ich dem Programm die Möglichkeit gegeben eine zufällige Zahl zu generieren.|
 | 06.09.2022| 1.0.0   | Der Generator ist fertig und er hat alle meine Funktionen erfüllt.|
+| 13.09.2022| 1.0.0   | Mein Programm wurde von Timo Goedertier bewertet und korrigiert und gebe das Projekt ab.|  
                                                              
 
 ## 1 Informieren
