@@ -57,12 +57,6 @@ Mein Projekt ist ein Number Generator, bei dem der Nutzer eine Zahl zwischen 1 u
 | 4.A  |06.09.2022 |Tristan Evans| Das Programm soll eine Fehlermeldung Ausgeben, in der steht, dass man keine Buchstaben eingeben soll.|55'|
 | 5.A  |06.09.2022 |Tristan Evans| Das Programm fragt den Nutzer nach beenden der Runde, ob dieser noch eine Runde spielen möchte.|45'|
 
-Total: 
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
-
 ## 3 Entscheiden
 
 Ich werde ein Programm schreiben, in dem man, sobald das Programm gestartet wurde, man eine Nummer in einen Zahlenbereich eingeben kann. Danach generiert das Programm in diesem Zahlenbereich eine zufällige Zahl und der Spieler muss dann eine Zahl, in dem Zahlenbereich schätzen, bis er die richtige Zahl findet, die die der zufälligen Zahl übereinstimmt.Jedes mal, wenn der Spieler die falsche Zahl schätzt gibt das Programm eine Rückmeldung, in der steht, ob die geschätzte Zahl höher oder tiefer als die generierte Zahl. Jedes mal wenn das passiert gibt es dem Spieler einen neuen Versuch. Sobald der Spieler die generierte Zahl herausfindet, fragt das Programm, ob der Spieler noch eine Runde spielen möchte. Als ein kann wegen der Farbe des Textes, habe ich mich entschieden die Antworten farbig zu machen.
@@ -78,9 +72,6 @@ Ich werde ein Programm schreiben, in dem man, sobald das Programm gestartet wurd
 | 4.A  | 06.09.2022| Tristan Evans|  55'          |  25'              |
 | 5.A  | 06.09.2022| Tristan Evans|  45'          |  15'              |
 
-
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
-
 ## 5 Kontrollieren
 
 ### 5.1 Testprotokoll
@@ -95,8 +86,6 @@ Ich werde ein Programm schreiben, in dem man, sobald das Programm gestartet wurd
 | 5.1  | 13.09.2022      |Das Spiel gab mir die Meldung y/n um das Spiel neuzustarten.|Tristan Evans|
 | 6.1  | 13.09.2022      |Es gab mir die Fehlermeldung, dass nur Zahlen eingegeben werden dürfen.|Tristan Evans|
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
-
 ### 5.2 Exploratives Testen
 
 Tester: Timo Goedertier
@@ -107,8 +96,5 @@ Tester: Timo Goedertier
 | II    |Nach dem gewinnen vom Spiel fragt mich das Programm ob ich nochmals spielen möchte.|zu grosse Zahlen, Buchstaben und Wörter|Das Programm stürzt ab|Das Programm gibt eine Fehlermeldung, aber stürzt nicht ab.|
 | III   |Am Anfang, wenn mich das Programm nach einer Zahl fragt gebe ich negative Zahlen ein.|Zahlen im negativen Bereich|Fehlermeldung|Das Programm sagt einfach, dass die Zahl zu klein ist, aber es sagt nicht, dass es eine ungültige Eingabe ist. Alles im Zahlenbereich 1 - 100|
 
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
-
 ## 6 Auswerten
-
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+[Hier](Lernbericht.md) ist mein Lernbericht.
