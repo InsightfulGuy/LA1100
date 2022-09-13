@@ -31,12 +31,13 @@ Mein Projekt ist ein Number Generator, bei dem der Nutzer eine Zahl zwischen 1 u
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-|  1.1 |Ich probiere eine Nummer in den Generator einzugeben, aber sie erscheint nicht|"bestimmte Nummer"|Die Nummer sollte eingegeben sein|
-|  2.1 |Random Nummer ist generiert, Zahl wurde eingegeben, gibt aber keine Antwort|"bestimmte Nummer des Nutzers"|Text der sagt ob ich die Nummer erraten habe.|
-|  3.1 |Random Nummer ist generiert, Zahl wurde eingegeben, aber gibt keine Antwort|"bestimmte Zahl die der Nutzer eingegeben hat"|Das Programm sollte eine Antwort geben, ob die Zahl zu gross, oder zu klein ist|
-|  4.4 |Die Antwort wurde ausgegeben, ob sie richtig/falsch ist, Resultatsnummer erscheint|"bestimmte Nummer" |Nummer soll in einer anderen Farbe angezeigt werden, ob sie falsch/richtig ist.|
-|  5.4 |Die Antwort wurde ausgegeben, die Nummer ist richtig, aber man kann nichts machen|"Neustart?"|Das Spiel sollte einem nach einem neuen Spiel fragen.| 
-|  6.1 |Die random Nummer wurde erraten, der Text und das Resultat werden angezeigt.|"Neustart"|Es soll eine Möglichkeit geben, das Spiel zu neustarten.
+|  1.1 |Random Nummer ist generiert|"Eingabe"|Die Nummer die ich eingegeben habe sollte erscheinen.|
+|  2.1 |Random Nummer ist generiert|"Eingabe"|Text der sagt ob ich die Nummer erraten habe.|
+|  2.2 |Random Nummer ist generiert|"Eingabe"|Das Programm sollte eine Antwort geben, ob die Zahl zu gross, oder zu klein ist|
+|  3.1 |Die Antwort ist ausgegeben|"Ausgabe" |Nummer soll in einer anderen Farbe angezeigt werden, ob sie falsch/richtig ist.|
+|  4.1 |Nummer richtig|"Ausgabe"|Das Spiel sollte einem einen neuen Versuch geben.| 
+|  5.1 |Die random Nummer wurde erraten, der Text und das Resultat werden angezeigt.|"Neustart"|Es soll eine Möglichkeit geben, das Spiel zu neustarten.
+|  6.1 |Andere Zeichen wurden eingegeben|"Ausgabe"|Eine Fehlermeldung|
 
 
 ### 1.4 Diagramme
@@ -85,17 +86,25 @@ Ich werde ein Programm schreiben, in dem man, sobald das Programm gestartet wurd
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  | 13.09.2022      |Die eingegebene Nummer von mir wurde angezeigt|Tristan Evans|
+| 2.1  | 13.09.2022      |Das Programm hat mir einen Text ausgegeben, ob ich es richtig oder falsch hatte|Tristan Evans|
+| 2.2  | 13.09.2022      |Das Programm gab mir die Meldung dass die Nummer zu klein/ zu gross war|Tristan Evans|
+| 3.1  | 13.09.2022      |Die Antwort wurde in verschiedenen Farben ausgegeben.|Tristan Evans|
+| 4.1  | 13.09.2022      |Das Spiel gab mir einen weiteren Versuch die Nummer zu erraten.|Tristan Evans|
+| 5.1  | 13.09.2022      |Das Spiel gab mir die Meldung y/n um das Spiel neuzustarten.|Tristan Evans|
+| 6.1  | 13.09.2022      |Es gab mir die Fehlermeldung, dass nur Zahlen eingegeben werden dürfen.|Tristan Evans|
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
 ### 5.2 Exploratives Testen
 
+Tester: Timo Goedertier
+
 | BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
 | ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
+| I    |Am Anfang, wenn mich das Programm nach einer Zahl fragt gebe ich Sachen ein.|zu grosse Zahlen, Buchstaben und Wörter|Das Programm stürzt ab|Das Programm gibt eine Fehlermeldung, aber stürzt nicht ab.|
+| II    |Nach dem gewinnen vom Spiel fragt mich das Programm ob ich nochmals spielen möchte.|zu grosse Zahlen, Buchstaben und Wörter|Das Programm stürzt ab|Das Programm gibt eine Fehlermeldung, aber stürzt nicht ab.|
+| III   |Am Anfang, wenn mich das Programm nach einer Zahl fragt gebe ich negative Zahlen ein.|Zahlen im negativen Bereich|Fehlermeldung|Das Programm sagt einfach, dass die Zahl zu klein ist, aber es sagt nicht, dass es eine ungültige Eingabe ist. Alles im Zahlenbereich 1 - 100|
 
 ✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
 
