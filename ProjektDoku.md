@@ -35,7 +35,7 @@ Mein Projekt ist ein Number Generator, bei dem der Nutzer eine Zahl zwischen 1 u
 |  2.1 |Random Nummer ist generiert, Zahl wurde eingegeben, gibt aber keine Antwort|"bestimmte Nummer des Nutzers"|Text der sagt ob ich die Nummer erraten habe.|
 |  3.1 |Random Nummer ist generiert, Zahl wurde eingegeben, aber gibt keine Antwort|"bestimmte Zahl die der Nutzer eingegeben hat"|Das Programm sollte eine Antwort geben, ob die Zahl zu gross, oder zu klein ist|
 |  4.4 |Die Antwort wurde ausgegeben, ob sie richtig/falsch ist, Resultatsnummer erscheint|"bestimmte Nummer" |Nummer soll in einer anderen Farbe angezeigt werden, ob sie falsch/richtig ist.|
-|  5.4 |Die Antwort wurde ausgegeben, die Nummer ist richtig, aber man kann nichts machen|"Neustart?"|Text sollte in einer bestimmten Farbe angezeigt werden.| 
+|  5.4 |Die Antwort wurde ausgegeben, die Nummer ist richtig, aber man kann nichts machen|"Neustart?"|Das Spiel sollte einem nach einem neuen Spiel fragen.| 
 |  6.1 |Die random Nummer wurde erraten, der Text und das Resultat werden angezeigt.|"Neustart"|Es soll eine Möglichkeit geben, das Spiel zu neustarten.
 
 
